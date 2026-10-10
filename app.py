@@ -118,7 +118,7 @@ if submit_btn:
     else:
         try:
             genai.configure(api_key=GOOGLE_API_KEY)
-            model = genai.GenerativeModel("gemini-2.5-flash")
+            model = genai.GenerativeModel("gemini-3.8-flash")
 
             prompt = f"""
             Bạn là trợ lý chuyên gia thiết kế bài giảng điện tử. 
